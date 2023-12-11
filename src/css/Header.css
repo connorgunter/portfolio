@@ -1,0 +1,24 @@
+nav {
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.link {
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff; 
+    margin: 0 10px; 
+    font-weight: bold;
+    text-decoration: inherit;
+}
+.link:hover {
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+}
