@@ -1,0 +1,1 @@
+add headshot photo to about.json
