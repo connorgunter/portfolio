@@ -12,8 +12,7 @@ function Footer(props) {
         >
           <img
             className="github-logo"
-            src="../../public/images/GitHub-logo.png"
-          ></img>
+            src="https://i.ibb.co/GFCGpn1/Git-Hub-logo.png" />
         </a>
       </div>
     </div>
