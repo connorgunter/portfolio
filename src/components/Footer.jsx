@@ -3,16 +3,26 @@ function Footer(props) {
   return (
     <div className="footer-container">
       <p className="footer-text">Contact Me</p>
-      <div className="github-logo-container">
+      <div className="contact-logos-container">
         <a
           href="https://github.com/connorgunter"
           rel="noopener noreferrer"
           target="_blank"
-          className="github-link"
         >
           <img
             className="github-logo"
-            src="https://i.ibb.co/GFCGpn1/Git-Hub-logo.png" />
+            src="../../public/images/github-mark.png"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/connor-gunter-903124293/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            className="linkedin-logo"
+            src="../../public/images/linkedin-logo.png"
+          />
         </a>
       </div>
     </div>

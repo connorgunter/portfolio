@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "../css/About.css"
 
 function About() {
   // create state to hold about data
@@ -22,9 +23,9 @@ function About() {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div>
+    <div className="about-container">
       <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
+      <h3>Email: {about.email}</h3>
       <p>{about.bio}</p>
     </div>
   );

@@ -1,29 +1,37 @@
 .footer-container {
-    background-color: #f8f8f8;
-    color: rgb(29, 27, 27);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .footer-text {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color: white;
 }
 
-.github-logo-container {
+.contact-logos-container {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.github-logo {
-    width: 100px;
+.contact-logos-container a {
+    margin-left:10px;
+}
+
+.linkedin-logo {
+    margin-top: 5px;
+    width: 50px;
     transition: transform 0.3s ease-in-out;
 }
 
+.github-logo {
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+.linkedin-logo:hover,
 .github-logo:hover {
     transform: scale(1.2);
-}
-
-.github-link {
-    text-decoration: none;
-    color: #61dafb;
 }

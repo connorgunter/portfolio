@@ -2,6 +2,9 @@ img {
     width: 500px;
 }
 
+.project-header {
+  text-align: center;
+}
 .projects-container {
     display: flex;
     justify-content:space-around;
