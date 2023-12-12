@@ -1,0 +1,64 @@
+img {
+    width: 500px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.project-card {
+    border: 1px solid black;
+    margin: 10px; 
+    padding: 10px; 
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+button {
+  font-weight: bold;
+    background-color: #E3E3E3;
+    color: #222;
+    padding: .5em 1em;
+    border: solid 1px black;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: blue;
+  
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .slide:hover::before,
+  .slide:focus::before {
+    transform: scaleX(1);
+  }
+  
+  .slide {
+    transition: color 300ms ease-in-out;
+    z-index: 1;
+  }
+  
+  
+  .slide:hover,
+  .slide:focus {
+    color: white;
+  }

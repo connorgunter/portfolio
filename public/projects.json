@@ -3,12 +3,12 @@
       "name": "BlackJack!",
       "live": "https://connorgunter.github.io/Project-1-Building-a-Game/",
       "git": "https://github.com/connorgunter/Project-1-Building-a-Game",
-      "image": "https://imgur.com/a/NzDdPAa"
+      "image": "./images/blackjack.png"
     },
     {
       "name": "BeatBuddy",
       "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
       "git": "https://github.com/connorgunter/music-playlist-app",
-      "image": "https://imgur.com/a/irIasCZ"
+      "image": "./images/beatbuddy.png"
     }
 ]

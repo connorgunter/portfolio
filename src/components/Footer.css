@@ -1,0 +1,29 @@
+.footer-container {
+    background-color: #f8f8f8;
+    color: rgb(29, 27, 27);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.github-logo-container {
+    margin-top: 10px;
+}
+
+.github-logo {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.github-logo:hover {
+    transform: scale(1.2);
+}
+
+.github-link {
+    text-decoration: none;
+    color: #61dafb;
+}
