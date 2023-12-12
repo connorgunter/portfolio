@@ -1,5 +1,5 @@
-import "./Footer.css";
-function Footer(props) {
+import "../css/Footer.css";
+function Footer() {
   return (
     <div className="footer-container">
       <p className="footer-text">Contact Me</p>
