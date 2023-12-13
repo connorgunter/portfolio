@@ -20,6 +20,11 @@
 .contact-logos-container a {
     margin-left:10px;
 }
+.gmail-logo {
+    width: 57px;
+    margin-top: 5px;
+    transition: transform 0.3s ease-in-out;
+}
 
 .linkedin-logo {
     margin-top: 5px;
@@ -31,6 +36,8 @@
     width: 50px;
     transition: transform 0.3s ease-in-out;
 }
+
+.gmail-logo:hover,
 .linkedin-logo:hover,
 .github-logo:hover {
     transform: scale(1.2);

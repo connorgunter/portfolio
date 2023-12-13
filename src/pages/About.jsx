@@ -24,9 +24,9 @@ function About() {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div className="about-container">
-      <h2>{about.name}</h2>
-      <h3>Email: {about.email}</h3>
-      <p>{about.bio}</p>
+      <h2 className="about-name">{about.name}</h2>
+      <h3 className="about-email">Email: {about.email}</h3>
+      <p className="about-bio">{about.bio}</p>
     </div>
   );
 

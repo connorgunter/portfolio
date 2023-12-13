@@ -24,6 +24,14 @@ function Footer() {
             src="../../images/linkedin-logo.png"
           />
         </a>
+        <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=connorgunter02@gmail.com"
+        >
+        <img
+        className="gmail-logo"
+        src=  "../../images/gmail.png"
+        />
+        </a>
       </div>
     </div>
   );

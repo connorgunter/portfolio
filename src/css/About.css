@@ -7,14 +7,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  h2 {
+  .about-name {
     color: #333;
   }
   
-  h3 {
+  .about-email {
     color: #555;
   }
   
-  p {
+  .about-bio {
     color: #777;
   }
