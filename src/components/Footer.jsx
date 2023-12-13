@@ -11,7 +11,7 @@ function Footer() {
         >
           <img
             className="github-logo"
-            src="../../public/images/github-mark.png"
+            src="../../images/github-mark.png"
           />
         </a>
         <a
@@ -21,12 +21,11 @@ function Footer() {
         >
           <img
             className="linkedin-logo"
-            src="../../public/images/linkedin-logo.png"
+            src="../../images/linkedin-logo.png"
           />
         </a>
       </div>
     </div>
   );
 }
-
 export default Footer;
