@@ -13,7 +13,7 @@ function Home() {
         expression. As I navigate my professional journey, I am excited to
         contribute my skills and enthusiasm to the dynamic world of technology,
         demonstrating a commitment to innovation and pushing the boundaries of
-        what's possible.
+        what is possible.
       </p>
     </>
   );
