@@ -18,7 +18,7 @@ function Projects() {
 
   const loaded = () => {
     return (
-      <div>
+      <div id="projects">
         <h1 className="project-header">My Projects</h1>
         <div className="projects-container">
           {projects.map((project, idx) => (

@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <>
+    <div id="home">
       <h2>Welcome to my Portfolio</h2>
       <img src="../../images/portland.jpg" />
       <p className="home-p">
@@ -15,7 +15,7 @@ function Home() {
         demonstrating a commitment to innovation and pushing the boundaries of
         what is possible.
       </p>
-    </>
+    </div>
   );
 }
 
