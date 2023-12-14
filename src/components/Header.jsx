@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import "../css/Header.css"
+import "../css/Header.css";
 
 function Header() {
-
-  //an example of an inline style for the nav tag for an initial layout - later additions, or 
-
   return (
     <header>
-      <h1>Connor Gunter</h1>
+      <div className="header-container">
+        <img className="portrait" src="../../images/ai-portrait-og.png" />
+        <h1>Connor Gunter: FullStack Developer</h1>
+      </div>
       <nav>
         <Link to="/">
           <div className="link">HOME</div>
