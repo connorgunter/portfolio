@@ -9,7 +9,7 @@ function About() {
   const getAboutData = async () => {
 
 		// make api call and get response
-    const response = await fetch("./about.json");
+    const response = await fetch("./skills.json");
 
 		// turn response into javascript object
     const data = await response.json();

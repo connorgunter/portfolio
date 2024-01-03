@@ -1,8 +1,9 @@
+import "../css/Home.css"
 function Home() {
   return (
     <div id="home">
       <h2>Welcome to my Portfolio</h2>
-      <img src="../../images/portland.jpg" />
+      <img className="home-image" src="../../images/maine.png" />
       <p className="home-p">
         I grew up in a charming town in southern Maine, surrounded by a
         community deeply rooted in various trade professions. However, I
