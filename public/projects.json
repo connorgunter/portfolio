@@ -16,5 +16,11 @@
       "live": "https://journeycraft.netlify.app/",
       "git": "https://github.com/bsong1124/trip-planner-client",
       "image": "./images/journeycraft.png"
+    },
+    {
+      "name":"ForecastFountain",
+      "live":"https://forecastfountain.netlify.app/",
+      "git":"https://github.com/connorgunter/Weather-App-Client",
+      "image": "./images/forecastfountain.png"
     }
 ]
