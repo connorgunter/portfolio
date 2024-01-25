@@ -18,15 +18,16 @@ function About() {
   const loaded = () => (
     <div className="about-container">
       <h2 className="about-name">{about.name}</h2>
-      <h3 className="about-email">Email: {about.email}</h3>
+      <h3 className="about-email">{about.email}</h3>
       <p className="about-bio">{about.bio}</p>
     </div>
   );
 
   return (
-    <div id="about">
-    {about ? loaded() : <h1>Loading...</h1>};
-    </div>
+    <></>
+    // <div>
+    // {about ? loaded() : <h1>Loading...</h1>};
+    // </div>
   )
 }
 

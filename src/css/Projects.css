@@ -1,72 +1,83 @@
 img {
-    width: 500px;
+  width: 500px;
 }
 
 .project-header {
   text-align: center;
 }
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-card {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10px; 
-    padding: 10px; 
-    text-align: center;
-  }
-  
-  .buttons {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-evenly;
-  }
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: rgb(63, 8, 133);
+  background: radial-gradient(
+    circle,
+    rgba(63, 8, 133, 1) 11%,
+    rgba(22, 5, 42, 1) 91%
+  );
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 button {
   font-weight: bold;
-    background-color: #E3E3E3;
-    color: #222;
-    padding: .5em 1em;
-    border: solid 1px black;
-    outline: none;
-    position: relative;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+  background-color: #e3e3e3;
+  color: #222;
+  padding: 0.5em 1em;
+  border: solid 1px black;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
-  .slide::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    background: radial-gradient(
-      circle,
-      rgba(156, 165, 214, 1) 0%,
-      rgba(101, 85, 168, 1) 100%
-    );
-  
-    transition: transform 300ms ease-in-out;
-    transform: scaleX(0);
-    transform-origin: left;
-  }
-  
-  .slide:hover::before,
-  .slide:focus::before {
-    transform: scaleX(1);
-  }
-  
-  .slide {
-    transition: color 300ms ease-in-out;
-    z-index: 1;
-  }
-  
-  
-  .slide:hover,
-  .slide:focus {
-    color: white;
-  }
+.slide::before {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: radial-gradient(
+    circle,
+    rgba(156, 165, 214, 1) 0%,
+    rgba(101, 85, 168, 1) 100%
+  );
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.slide:hover::before,
+.slide:focus::before {
+  border-radius: 5px;
+  transform: scaleX(1);
+}
+
+.slide {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.slide:hover,
+.slide:focus {
+  border-radius: 5px;
+  color: white;
+}
