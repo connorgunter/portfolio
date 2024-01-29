@@ -1,13 +1,10 @@
 import "../src/css/App.css"
 
-// IMPORT COMPONENTS
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import { Route, Routes } from "react-router-dom";
 
-// IMPORT PAGES
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 function App() {
 
@@ -16,7 +13,7 @@ function App() {
       <Header />
       <main>
       <Home />
-      <About />
+      <Skills />
       <Projects />
       </main>
       <Footer />
@@ -25,9 +22,3 @@ function App() {
 }
 
 export default App;
-
-{/* <Routes>
-  <Route exact path="/" element={<Home />}/>
-  <Route path="/projects" element={<Projects />} />
-  <Route path="/about" element={<About />} />
-</Routes> */}

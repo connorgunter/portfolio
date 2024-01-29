@@ -11,8 +11,8 @@ function Header() {
         <a href="#home">
           <div className="link">HOME</div>
         </a>
-        <a href="#about">
-          <div className="link">ABOUT</div>
+        <a href="#skills">
+          <div className="link">SKILLS</div>
         </a>
         <a href="#projects">
           <div className="link">PROJECTS</div>
