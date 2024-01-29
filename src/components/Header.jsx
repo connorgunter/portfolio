@@ -17,6 +17,12 @@ function Header() {
         <a href="#projects">
           <div className="link">PROJECTS</div>
         </a>
+        <div className="resume-container">
+        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1pombqrcirYJQMgBH3dexe6YZwDQ5BL4C/view?usp=sharing">
+        <img className="resume" src="../../images/resume.png"/>
+        <span className="popup">Resume</span>
+        </a>
+        </div>
       </nav>
     </header>
   );

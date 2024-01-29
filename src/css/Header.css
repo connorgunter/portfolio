@@ -35,3 +35,44 @@ a {
     border: black 2px solid;
     border-radius: 50%;
 }
+
+.resume {
+    max-width: 8vh;
+    max-height: 8vh;
+}
+
+.resume-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .resume-container .popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; 
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .resume-container:hover .popup {
+    display: block;
+  }
+  
+  .resume-container .popup::before {
+    content: "";
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    transform: translateX(-50%);
+  }
+  
