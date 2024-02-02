@@ -44,7 +44,10 @@ function Skills() {
 
   return (
     <div id="skills">
+      <div className="skills-header-container">
       <h1 className="skills-header">Skills</h1>
+      <img className="skills-img" src="../../images/skills.png"/>
+      </div>
     <div className="skills">
       {renderSkills("Languages")}
       {renderSkills("Libraries & Frameworks")}

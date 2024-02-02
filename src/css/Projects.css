@@ -4,6 +4,7 @@ img {
 
 .project-header {
   text-align: center;
+  margin-right: 10px;
 }
 .projects-container {
   display: grid;
@@ -80,4 +81,14 @@ button {
 .slide:focus {
   border-radius: 5px;
   color: white;
+}
+
+.projects-img {
+  width:40px;
+}
+
+.projects-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -28,7 +28,7 @@
 
   .skills-header {
     text-align: center;
-    font-weight: bold;
+    margin-right: 10px;
   }
 
   .skills {
@@ -36,4 +36,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+  }
+
+  .skills-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-img {
+    width: 40px;
   }

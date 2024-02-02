@@ -19,7 +19,10 @@ function Projects() {
   const loaded = () => {
     return (
       <div id="projects">
+        <div className="projects-header-container">
         <h1 className="project-header">My Projects</h1>
+        <img className="projects-img" src="../../images/programming.png"/>
+        </div>
         <div className="projects-container">
           {projects.map((project, idx) => (
             <div className="project-card" key={idx}>
