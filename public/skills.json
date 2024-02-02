@@ -1,5 +1,11 @@
 {
   "Languages": ["JavaScript", "CSS", "HTML", "Python", "EJS"],
-  "Libraries & Frameworks": ["React", "Express.js", "Mongoose", "Django", "Node.js"],
+  "Libraries & Frameworks": [
+    "React",
+    "Express.js",
+    "Mongoose",
+    "Django",
+    "Node.js"
+  ],
   "Databases & Other": ["RESTful Routing", "MongoDB", "API Integration"]
 }
