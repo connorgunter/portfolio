@@ -18,3 +18,22 @@
   .about-bio {
     color: #777;
   }
+
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-header {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }

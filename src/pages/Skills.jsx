@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import "../css/Skills.css";
 
 function Skills() {
-  const [skills, setSkills] = useState({ Languages: [], "Libraries & Frameworks": [], "Databases & Other": [] });
+  const [skills, setSkills] = useState({
+    Languages: [],
+    "Libraries & Frameworks": [],
+    "Databases & Other": [],
+  });
   const [isLoading, setIsLoading] = useState(true);
 
   const getSkillsData = async () => {
@@ -14,10 +18,10 @@ function Skills() {
       const data = await response.json();
       setSkills(data);
       setIsLoading(false);
-    }catch (err){
-      console.log(err)
+    } catch (err) {
+      console.log(err);
     }
-  }
+  };
 
   useEffect(() => {
     getSkillsData();
@@ -28,7 +32,7 @@ function Skills() {
   }
 
   const renderSkills = (skillCategory) => (
-    <div>
+    <div className="skills-grid">
       <h2>{skillCategory}</h2>
       <ul>
         {skills[skillCategory].map((skill, idx) => (
@@ -40,10 +44,12 @@ function Skills() {
 
   return (
     <div id="skills">
-      <h1>Skills</h1>
+      <h1 className="skills-header">Skills</h1>
+    <div className="skills">
       {renderSkills("Languages")}
       {renderSkills("Libraries & Frameworks")}
       {renderSkills("Databases & Other")}
+    </div>
     </div>
   );
 }
