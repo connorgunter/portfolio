@@ -101,6 +101,7 @@ button {
 
   .project-card {
     margin: 10px 5px;
+    width: auto;
   }
 
 .projects-img {
@@ -109,7 +110,7 @@ button {
   }
 
   .projects-header-container, .buttons, .project-header {
-    flex-direction: column; 
+    /* flex-direction: column;  */
     text-align: center;
   }
 
