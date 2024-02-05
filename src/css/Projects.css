@@ -11,6 +11,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
+
 .project-card {
   color: white;
   border: 1px solid black;
@@ -90,4 +91,29 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    margin: 10px 5px;
+  }
+
+.projects-img {
+    width: 40px;
+    height: auto;
+  }
+
+  .projects-header-container, .buttons, .project-header {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  button {
+    margin: 5px 0; 
+  }
 }
