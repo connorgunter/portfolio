@@ -36,7 +36,10 @@ function Skills() {
       <h2>{skillCategory}</h2>
       <ul>
         {skills[skillCategory].map((skill, idx) => (
-          <li key={idx}>{skill}</li>
+          <div key={idx}>
+          <p>{skill.name}</p>
+          <img className="skills-logos" src={skill.url}/>
+          </div>
         ))}
       </ul>
     </div>

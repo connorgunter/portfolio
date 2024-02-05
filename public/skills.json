@@ -1,11 +1,48 @@
 {
-  "Languages": ["JavaScript", "CSS", "HTML", "Python", "EJS"],
-  "Libraries & Frameworks": [
-    "React",
-    "Express.js",
-    "Mongoose",
-    "Django",
-    "Node.js"
+  "Languages": [
+    {
+      "name": "Javascript",
+      "url":"./images/skills-images/js.png"
+    },
+    {
+      "name": "CSS",
+      "url":"./images/skills-images/css-3.png"
+    },
+    {
+      "name": "HTML",
+      "url":"./images/skills-images/html-5.png"
+    },
+    {
+      "name": "Python",
+      "url":"./images/skills-images/python.png"
+    },
+    {
+      "name": "Bootstrap",
+      "url":"./images/skills-images/bootstrap.png"
+    }
   ],
-  "Databases & Other": ["RESTful Routing", "MongoDB", "API Integration"]
+  "Libraries & Frameworks": [
+    {
+      "name": "React.js",
+      "url": "./images/skills-images/react.png"
+    },
+    {
+      "name": "Node.js",
+      "url": "./images/skills-images/nodejs.png"
+    },
+    {
+      "name": "Django",
+      "url": "./images/skills-images/django.png"
+    }
+  ],
+  "Databases & Other": [
+    {
+      "name": "MongoDB",
+      "url": "./images/skills-images/mongo.png"
+    },
+    {
+      "name": "API Integration",
+      "url": "./images/skills-images/api.png"
+    }
+  ]
 }

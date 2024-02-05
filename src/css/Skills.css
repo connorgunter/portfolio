@@ -23,6 +23,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
 }
 
 .skills-header {
@@ -46,4 +48,8 @@
 .skills-img {
   width: 40px;
   height: auto;
+}
+
+.skills-logos {
+  width: 50px;
 }
