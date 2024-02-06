@@ -40,7 +40,7 @@ function Skills() {
         {skills[skillCategory].map((skill, idx) => (
           <div key={idx} className="skills-logos">
           <img className="skills-logo" src={skill.url}/>
-          <p>{skill.name}</p>
+          <p className="skill-name">{skill.name}</p>
           </div>
         ))}
     </div>

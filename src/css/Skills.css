@@ -52,13 +52,17 @@
   height: auto;
 }
 
-.skills-logo {
-  width: 50px;
+.skills-logos {
+  text-align: center;
 }
 
 .skills-logo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-category {

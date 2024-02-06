@@ -1,26 +1,26 @@
 [
-    {
-      "name": "BlackJack!",
-      "live": "https://connorgunter.github.io/Project-1-Building-a-Game/",
-      "git": "https://github.com/connorgunter/Project-1-Building-a-Game",
-      "image": "./images/blackjack.png"
-    },
-    {
-      "name": "BeatBuddy",
-      "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
-      "git": "https://github.com/connorgunter/music-playlist-app",
-      "image": "./images/beatbuddy.png"
-    },
-    {
-      "name": "JourneyCraft",
-      "live": "https://journeycraft.netlify.app/",
-      "git": "https://github.com/bsong1124/trip-planner-client",
-      "image": "./images/journeycraft.png"
-    },
-    {
-      "name":"ForecastFountain",
-      "live":"https://forecastfountain.netlify.app/",
-      "git":"https://github.com/connorgunter/Weather-App-Client",
-      "image": "./images/forecastfountain.png"
-    }
+  {
+    "name": "JourneyCraft",
+    "live": "https://journeycraft.netlify.app/",
+    "git": "https://github.com/bsong1124/trip-planner-client",
+    "image": "./images/journeycraft.png"
+  },
+  {
+    "name": "BeatBuddy",
+    "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
+    "git": "https://github.com/connorgunter/music-playlist-app",
+    "image": "./images/beatbuddy.png"
+  },
+  {
+    "name": "ForecastFountain",
+    "live": "https://forecastfountain.netlify.app/",
+    "git": "https://github.com/connorgunter/Weather-App-Client",
+    "image": "./images/forecastfountain.png"
+  },
+  {
+    "name": "BlackJack!",
+    "live": "https://connorgunter.github.io/Project-1-Building-a-Game/",
+    "git": "https://github.com/connorgunter/Project-1-Building-a-Game",
+    "image": "./images/blackjack.png"
+  }
 ]
