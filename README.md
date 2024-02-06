@@ -1,7 +1,8 @@
 # Connor Gunter: FullStack Developer Portfolio
 
 Welcome to the repository for my personal FullStack Developer Portfolio! This portfolio showcases my skills and projects, acting as a hub for my professional web development presence.
-Link - https://connorgunter.com/
+
+## Link - https://connorgunter.com/
 
 ## Features
 
