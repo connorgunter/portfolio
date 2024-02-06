@@ -2,23 +2,19 @@
   "Languages": [
     {
       "name": "Javascript",
-      "url":"./images/skills-images/js.png"
+      "url": "./images/skills-images/js.png"
     },
     {
       "name": "CSS",
-      "url":"./images/skills-images/css-3.png"
+      "url": "./images/skills-images/css-3.png"
     },
     {
       "name": "HTML",
-      "url":"./images/skills-images/html-5.png"
+      "url": "./images/skills-images/html-5.png"
     },
     {
       "name": "Python",
-      "url":"./images/skills-images/python.png"
-    },
-    {
-      "name": "Bootstrap",
-      "url":"./images/skills-images/bootstrap.png"
+      "url": "./images/skills-images/python.png"
     }
   ],
   "Libraries & Frameworks": [
@@ -33,6 +29,10 @@
     {
       "name": "Django",
       "url": "./images/skills-images/django.png"
+    },
+    {
+      "name": "Bootstrap",
+      "url": "./images/skills-images/bootstrap.png"
     }
   ],
   "Databases & Other": [
