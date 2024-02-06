@@ -16,3 +16,7 @@ Welcome to the repository for my personal FullStack Developer Portfolio! This po
 - **Frontend:** React.js, HTML, CSS
 - **Version Control:** Git and GitHub
 - **Deployment:** Netlify
+
+## Contact
+- **Email:** connorgunter02@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/connor-gunter/
