@@ -43,6 +43,10 @@
     {
       "name": "API Integration",
       "url": "./images/skills-images/api.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "./images/skills-images/github.png"
     }
   ]
 }
