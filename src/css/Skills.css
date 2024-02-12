@@ -1,64 +1,26 @@
-.about-container {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.about-name {
-  color: #333;
-}
-
-.about-email {
-  color: #555;
-}
-
-.about-bio {
-  color: #777;
-}
-
-.skills {
+ /* .skills {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  background: rgb(63, 8, 133);
-  background: radial-gradient(
-    circle,
-    rgba(63, 8, 133, 1) 11%,
-    rgba(22, 5, 42, 1) 91%
-  );
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: auto;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
   margin: 5px;
   width: 250px;
   border-radius: 10px;
   color: white;
-} 
-
-.skills-header {
-  text-align: center;
-  margin-right: 5px;
+  background-color: black;
+  height: 250px;
 }
 
-.skills-header-container {
-  display: flex;
-  justify-content:center ;
-  align-items: center;
-}
 
-.skills-img {
-  width: 40px;
-  height: auto;
-}
+
+
 
 .skills-logos {
   text-align: center;
@@ -76,6 +38,72 @@
 .skill-category {
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   color: white;
+}
+*/
+
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 50px; 
+  margin-top: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(100px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  color: #fff;
+  width: 200px;
+  height: 670px;
+  margin: 10px;
+}
+
+.skills-header {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.skills-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-logo {
+  width: 60px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.skills-img {
+  width: 40px;
+  height: auto;
+}
+
+.skills-logos {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skills-logos:hover {
+  transform: translateY(-5px);
+}
+
+.skill-name {
+  color: #ddd; /* Lighter grey for better readability */
+  margin-top: 5px;
+}
+
+.skill-category h2 {
+  text-align: center;
+  color: #eee;
+  margin-bottom: 15px;
 }
