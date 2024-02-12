@@ -15,7 +15,8 @@ nav {
 }
 
 .link:hover {
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 
 a {
