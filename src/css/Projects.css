@@ -8,22 +8,21 @@ img {
 }
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, minmax(250px, 1fr)); /* Adjust the minmax values as needed */
-  gap: 10px; /* Add some space between grid items */
-  margin: 0 auto; /* Center the grid */
-  padding: 10px; /* Add some padding */
+  grid-template-columns: repeat(2, minmax(250px, 1fr)); 
+  gap: 10px; 
+  margin: 0 auto; 
+  padding: 10px; 
 }
 
 .project-card {
-  margin: 0; /* Remove margin to utilize full grid space */
+  margin: 0;
 }
 .project-card h1 {
-  font-size: 1.5em; /* Adjust as needed */
+  font-size: 1.5em;
 }
 
 .project-image {
-  width: 100%; /* Make image width responsive */
-  height: auto; /* Maintain aspect ratio */
+  height: 250px;
 }
 
 
@@ -65,9 +64,9 @@ button {
   border-radius: 5px;
 }
 button {
-  padding: 0.75em 1.5em; /* Increase padding */
-  margin: 5px; /* Add some margin for touch targets */
-  font-size: 1em; /* Adjust font size */
+  padding: 0.75em 1.5em;
+  margin: 5px;
+  font-size: 1em;
 }
 
 .slide::before {
