@@ -33,8 +33,8 @@ function Skills() {
 
   const renderSkills = (skillCategory) => (
     <div key={skillCategory} className="skill-category">
-      <div className="skills-grid">
       <h2>{skillCategory}</h2>
+      <div className="skills-grid">
         {skills[skillCategory].map((skill, idx) => (
           <div key={idx} className="skills-logos">
             <img className="skills-logo" src={skill.url} alt={skill.name}/>

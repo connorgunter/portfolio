@@ -27,7 +27,7 @@ function Projects() {
           {projects.map((project, idx) => (
             <div className="project-card" key={idx}>
               <h1>{project.name}</h1>
-              <img src={project.image} />
+              <img className="project-image" src={project.image} />
               <div className="buttons">
                 <a href={project.git}>
                   <button className="slide">Github</button>

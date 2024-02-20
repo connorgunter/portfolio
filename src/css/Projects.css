@@ -8,7 +8,22 @@ img {
 }
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(250px, 1fr)); /* Adjust the minmax values as needed */
+  gap: 10px; /* Add some space between grid items */
+  margin: 0 auto; /* Center the grid */
+  padding: 10px; /* Add some padding */
+}
+
+.project-card {
+  margin: 0; /* Remove margin to utilize full grid space */
+}
+.project-card h1 {
+  font-size: 1.5em; /* Adjust as needed */
+}
+
+.project-image {
+  width: 100%; /* Make image width responsive */
+  height: auto; /* Maintain aspect ratio */
 }
 
 
@@ -28,6 +43,10 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.project-image {
+  height: 250px;
+}
+
 .buttons {
   margin-top: 10px;
   display: flex;
@@ -44,6 +63,11 @@ button {
   position: relative;
   cursor: pointer;
   border-radius: 5px;
+}
+button {
+  padding: 0.75em 1.5em; /* Increase padding */
+  margin: 5px; /* Add some margin for touch targets */
+  font-size: 1em; /* Adjust font size */
 }
 
 .slide::before {
@@ -97,6 +121,8 @@ button {
 @media screen and (max-width: 768px) {
   .projects-container {
     grid-template-columns: 1fr;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .project-card {
@@ -110,7 +136,6 @@ button {
   }
 
   .projects-header-container, .buttons, .project-header {
-    /* flex-direction: column;  */
     text-align: center;
   }
 

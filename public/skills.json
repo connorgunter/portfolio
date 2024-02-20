@@ -47,6 +47,10 @@
     {
       "name": "GitHub",
       "url": "./images/skills-images/github.png"
+    },
+    {
+      "name": "Postman",
+      "url": "./images/skills-images/postman.png"
     }
   ]
 }

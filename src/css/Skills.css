@@ -61,3 +61,17 @@
   color: #eee;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 1278px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 10px;
+    padding-top: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  .skills-logos {
+    padding:0px;
+    margin: 0px;
+  }
+}
