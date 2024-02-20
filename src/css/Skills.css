@@ -11,13 +11,7 @@
   display: grid;
   grid-template-columns: repeat(1, minmax(100px, 1fr));
   gap: 20px;
-  padding: 20px;
-  background-color: #222;
-  border-radius: 10px;
-  color: #fff;
-  width: 200px;
-  height: 670px;
-  margin: 10px;
+
 }
 
 .skills-header {
@@ -55,7 +49,15 @@
   color: #ddd; 
   margin-top: 5px;
 }
-
+.skill-category {
+padding: 20px;
+background-color: #222;
+border-radius: 10px;
+color: #fff;
+width: 200px;
+height: 670px;
+margin: 10px;
+}
 .skill-category h2 {
   text-align: center;
   color: #eee;
