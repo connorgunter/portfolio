@@ -11,14 +11,20 @@ function Welcome() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="welcome-btns"><img src="../../images/github-mark.png" className="resume-img"/>GitHub</button>
+          <button className="welcome-btns">
+            <img src="../../images/github-mark.png" className="resume-img" />
+            GitHub
+          </button>
         </a>
         <a
           href="https://drive.google.com/file/d/1pombqrcirYJQMgBH3dexe6YZwDQ5BL4C/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="welcome-btns"><img src="../../images/resume.png" className="resume-img"/>Resume</button>
+          <button className="welcome-btns">
+            <img src="../../images/resume.png" className="resume-img" />
+            Resume
+          </button>
         </a>
       </div>
     </div>

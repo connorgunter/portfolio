@@ -1,9 +1,9 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  flex-wrap: wrap; 
-  gap: 50px; 
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
   margin-top: 20px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .skill-name {
-  color: #ddd; 
+  color: #ddd;
   margin-top: 5px;
 }
 
@@ -71,7 +71,7 @@
     height: 250px;
   }
   .skills-logos {
-    padding:0px;
+    padding: 0px;
     margin: 0px;
   }
 }
