@@ -11,8 +11,9 @@ function Welcome() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="welcome-btns">
-            <img src="../../images/github-mark.png" className="resume-img" />
+          <button className="github-btn welcome-btns ">
+            <img src="../../images/github-mark.png" className="button-imgs github-black" />
+            <img src="../../images/github-white.png" className="button-imgs github-white"/>
             GitHub
           </button>
         </a>
@@ -21,8 +22,9 @@ function Welcome() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="welcome-btns">
-            <img src="../../images/resume.png" className="resume-img" />
+          <button className="welcome-btns resume-btn">
+            <img src="../../images/resume.png" className="button-imgs resume-black" />
+            <img src="../../images/resume-white.png" className="button-imgs resume-white" />
             Resume
           </button>
         </a>

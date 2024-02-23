@@ -31,18 +31,51 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 5px;
+  padding: 10px;
+  border-radius: 10px;
   margin: 10px;
 }
 
-.welcome-btns:hover {
-  border: 1px purple solid;
-}
-
-.resume-img {
+.button-imgs {
   width: 25px;
   margin-right: 5px;
 }
 
+.github-btn, .resume-btn {
+  background: #EEE;
+}
+
+.github-black, .github-white, .resume-black, .resume-white {
+  display: inline;
+}
+
+.github-black:hover,
+.resume-black:hover {
+  display: none;
+}
+
+.github-white,
+.resume-white {
+  display: none;
+}
+
+
+.github-btn:hover .github-black,
+.resume-btn:hover .resume-black {
+  display: none; 
+}
+
+.github-btn:hover .github-white,
+.resume-btn:hover .resume-white {
+  display: inline;
+}
+
+.github-btn:hover,
+.resume-btn:hover {
+  background: black;
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
+
 }
