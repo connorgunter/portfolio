@@ -44,11 +44,5 @@
   margin-right: 5px;
 }
 
-@media screen and (max-width: 865px) {
-  h1 {
-    text-align: center;
-  }
-  .welcome-container {
-    background-size: cover;
-  }
+@media screen and (max-width: 768px) {
 }
