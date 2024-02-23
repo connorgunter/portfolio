@@ -1,7 +1,7 @@
 import "../css/Home.css";
 function Home() {
   return (
-    <div id="home">
+    <div id="about">
       <br />
       <br />
       <br />

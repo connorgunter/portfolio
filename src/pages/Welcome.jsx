@@ -1,7 +1,7 @@
 import "../css/Welcome.css";
 function Welcome() {
   return (
-    <div className="welcome-container">
+    <div id="welcome" className="welcome-container">
       <div className="header-container">
         <h1 className="welcome-header">Connor Gunter: FullStack Developer</h1>
       </div>

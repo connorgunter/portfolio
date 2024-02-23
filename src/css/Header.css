@@ -8,7 +8,7 @@ nav {
   left: 0;
   position: fixed;
   background: #150c25;
-  z-index: 1;
+  z-index: 5;
   height: 8vh;
 }
 

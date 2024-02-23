@@ -4,10 +4,12 @@ function Header() {
   return (
     <header>
       <nav>
+        <a href="#welcome">
         <img className="portrait" src="../../images/ai-portrait-og.png" />
+        </a>
         <div className="links">
-          <a href="#home">
-            <div className="link">HOME</div>
+          <a href="#about">
+            <div className="link">ABOUT</div>
           </a>
           <a href="#skills">
             <div className="link">SKILLS</div>

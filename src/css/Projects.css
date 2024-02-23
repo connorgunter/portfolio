@@ -43,6 +43,7 @@ img {
 }
 
 .buttons {
+  z-index: 0;
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
