@@ -1,5 +1,6 @@
 .welcome-container {
     height: 820px;
+    background-size: cover;
     background-image: url("../../images/welcome.png");
     color: black;
     margin: -10px;
@@ -18,4 +19,31 @@
 .header-container {
     margin-bottom: 20px;
     height: auto;
+}
+
+.welcome-btns {
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.welcome-btns:hover {
+    border: 1px purple solid;
+}
+
+.resume-img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:865px) {
+    h1 {
+        text-align: center;
+    }
+    .welcome-container {
+        background-size: cover;
+    }
+
 }

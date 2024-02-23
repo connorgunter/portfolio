@@ -8,6 +8,8 @@ nav {
     left:0;
     position: fixed;
     background: #150c25;
+    z-index: 1;
+    height: 8vh;
 }
 
 .link {
@@ -21,17 +23,18 @@ nav {
 .link:hover {
     color: white;
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 a {
     text-decoration: none;
 }
 
-/* .header-container {
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 
 .header-container {
@@ -39,13 +42,15 @@ a {
 }
 .portrait {
     margin-right: 3vh;
-    max-width: 8vh;
-    max-height: 8vh;
-    border: black 2px solid;
+    max-width: 6vh;
+    max-height: 6vh;
+    /* border: black 2px solid; */
     border-radius: 50%;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
 }
 
-.resume {
+/* .resume {
     max-width: 8vh;
     max-height: 8vh;
 }
@@ -83,7 +88,7 @@ a {
     border-style: solid;
     border-color: transparent transparent #fff transparent;
     transform: translateX(-50%);
-  }
+  } */
   
   .links {
     display: flex;
