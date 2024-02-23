@@ -2,6 +2,9 @@ import "../css/Home.css";
 function Home() {
   return (
     <div id="home">
+      <br />
+      <br />
+      <br />
       <h2>Welcome to my Portfolio</h2>
       <img className="home-image" src="../../images/maine.png" />
       <p className="home-p">

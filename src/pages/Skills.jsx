@@ -37,7 +37,7 @@ function Skills() {
       <div className="skills-grid">
         {skills[skillCategory].map((skill, idx) => (
           <div key={idx} className="skills-logos">
-            <img className="skills-logo" src={skill.url} alt={skill.name}/>
+            <img className="skills-logo" src={skill.url} alt={skill.name} />
             <p className="skill-name">{skill.name}</p>
           </div>
         ))}
@@ -45,9 +45,11 @@ function Skills() {
     </div>
   );
 
-
   return (
     <div id="skills">
+      <br />
+      <br />
+      <br />
       <div className="skills-header-container">
         <h1 className="skills-header">Skills</h1>
         <img className="skills-img" src="../../images/skills.png" />

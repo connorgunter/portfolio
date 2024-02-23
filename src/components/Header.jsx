@@ -3,11 +3,10 @@ import "../css/Header.css";
 function Header() {
   return (
     <header>
-      <div className="header-container">
-        <img className="portrait" src="../../images/ai-portrait-og.png" />
-        <h1>Connor Gunter: FullStack Developer</h1>
-      </div>
+
       <nav>
+      <img className="portrait" src="../../images/ai-portrait-og.png" />
+      <div className="links">
         <a href="#home">
           <div className="link">HOME</div>
         </a>
@@ -23,7 +22,9 @@ function Header() {
         <span className="popup">Resume</span>
         </a>
         </div>
+        </div>
       </nav>
+
     </header>
   );
 }
