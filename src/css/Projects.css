@@ -123,7 +123,7 @@ button {
   }
 
   .projects-img {
-    width: 40px;
+    width: 50px;
     height: auto;
   }
 
@@ -135,5 +135,9 @@ button {
 
   button {
     margin: 5px 0;
+  }
+
+  .projects-header-container {
+    font-size: 25px;
   }
 }
