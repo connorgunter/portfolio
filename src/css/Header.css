@@ -49,54 +49,18 @@ a {
   margin-right: 3vh;
   max-width: 6vh;
   max-height: 6vh;
-  /* border: black 2px solid; */
   border-radius: 50%;
-  /* padding-top: 3px;
-    padding-bottom: 3px; */
 }
 
-/* .resume {
-    max-width: 8vh;
-    max-height: 8vh;
-}
-
-.resume-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .resume-container .popup {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff; 
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-    white-space: nowrap;
-    z-index: 1;
-  }
-  
-  .resume-container:hover .popup {
-    display: block;
-  }
-  
-  .resume-container .popup::before {
-    content: "";
-    position: absolute;
-    bottom: 100%; 
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #fff transparent;
-    transform: translateX(-50%);
-  } */
 
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .link {
+    padding: 5px 10px;
+  }
 }
