@@ -74,4 +74,11 @@
     padding: 0px;
     margin: 0px;
   }
+  .skills-header-container {
+    font-size: 25px;
+  }
+  .skills-img {
+    width: 50px;
+    height: auto;
+  }
 }
