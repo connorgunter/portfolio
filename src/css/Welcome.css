@@ -1,5 +1,6 @@
 .welcome-container {
-  height: 820px;
+  min-height: 820px;
+  /* width: 100%; */
   background-size: cover;
   background-image: url("../../images/welcome.png");
   color: black;
@@ -76,6 +77,10 @@
   color: white;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 770px) {
+  .welcome-container {
+    width: 100%;
+    background-position: center;
+  }
 }
+

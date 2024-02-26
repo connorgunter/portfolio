@@ -1,5 +1,23 @@
 import "../css/Home.css";
+import { useEffect } from "react";
 function Home() {
+
+    useEffect(() => {
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+      }, [])
   return (
     <div id="about">
       <br />
@@ -19,6 +37,23 @@ function Home() {
         demonstrating a commitment to innovation and pushing the boundaries of
         what is possible.
       </p>
+      <div className="a-c">
+      <div className="about-container">
+      <h2 className="accordion-h2">About Me</h2>
+      <button className="accordion">Section 1</button>
+      <div className="panel">
+        <p>Panel 1</p>
+      </div>
+      <button className="accordion">Section 2</button>
+      <div className="panel">
+        <p>Panel 2</p>
+      </div>
+      <button className="accordion">Section 3</button>
+      <div className="panel">
+        <p>Panel 3</p>
+      </div>
+      </div>
+    </div>
     </div>
   );
 }
