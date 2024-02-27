@@ -13,8 +13,11 @@ const Mobile = () => {
 
   return (
     <div ref={ref} className="sm:hidden flex justify-between items-center">
-      <a href="#">
-      <img className="w-10 h-10 mt-1 rounded-full" src="../../images/ai-portrait-og.png"/>
+      <a onClick={() => setOpen(false)} href="#">
+        <img
+          className="w-10 h-10 mt-1 rounded-full"
+          src="../../images/ai-portrait-og.png"
+        />
       </a>
       <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       <AnimatePresence>
@@ -49,8 +52,7 @@ const Mobile = () => {
                       href={route.href}
                     >
                       <span className="flex gap-1 text-lg">{route.title}</span>
-                      <img className="w-8 mr-10" src={route.Icon}/>
-                      {/* <Icon className="text-xl" /> */}
+                      <img className="w-8 mr-10" src={route.Icon} />
                     </a>
                   </motion.li>
                 );
