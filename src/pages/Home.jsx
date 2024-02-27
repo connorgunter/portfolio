@@ -3,8 +3,8 @@ import { useEffect } from "react";
 function Home() {
 
     useEffect(() => {
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+        const acc = document.getElementsByClassName("accordion");
+        let i;
 
         for (i = 0; i < acc.length; i++) {
             acc[i].addEventListener("click", function () {
@@ -39,16 +39,15 @@ function Home() {
       </p>
       <div className="a-c">
       <div className="about-container">
-      <h2 className="accordion-h2">About Me</h2>
-      <button className="accordion">Section 1</button>
+      <button className="accordion">My Journey</button>
       <div className="panel">
         <p>Panel 1</p>
       </div>
-      <button className="accordion">Section 2</button>
+      <button className="accordion">Goals</button>
       <div className="panel">
         <p>Panel 2</p>
       </div>
-      <button className="accordion">Section 3</button>
+      <button className="accordion"></button>
       <div className="panel">
         <p>Panel 3</p>
       </div>
