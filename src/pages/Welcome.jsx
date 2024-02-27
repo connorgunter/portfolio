@@ -12,7 +12,7 @@ function Welcome() {
           rel="noreferrer"
         >
           <button className="github-btn welcome-btns ">
-            <img src="../../images/github-mark.png" className="button-imgs github-black" />
+            <img src="../../images/github.png" className="button-imgs github-black" />
             <img src="../../images/github-white.png" className="button-imgs github-white"/>
             GitHub
           </button>
