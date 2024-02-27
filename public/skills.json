@@ -31,9 +31,10 @@
       "url": "./images/skills-images/django.png"
     },
     {
-      "name": "Bootstrap",
-      "url": "./images/skills-images/bootstrap.png"
+      "name": "TailWind",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     }
+          
   ],
   "Databases & Other": [
     {

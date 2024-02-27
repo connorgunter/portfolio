@@ -1,7 +1,7 @@
 import "../css/Welcome.css";
 function Welcome() {
   return (
-    <div id="welcome" className="welcome-container flex flex-col items-center justify-center w-full bg-cover -m-2">
+    <div id="welcome" className="welcome-bg flex flex-col text-center items-center justify-center -ml-2 w-screen h-screen">
       <div className="header-container">
         <h1 className="welcome-header">Connor Gunter: FullStack Developer</h1>
       </div>

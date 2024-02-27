@@ -1,14 +1,6 @@
 .welcome-container {
   min-height: 820px;
-  /* width: 100%; */
-  /* background-size: cover; */
   background-image: url("../../images/welcome.png");
-  /* color: black;
-  margin: -10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .welcome-header {

@@ -2,8 +2,8 @@ import "../css/Header.css";
 
 function Desktop() {
   return (
-    <header className="desktop">
-      <nav>
+    <header className="hidden sm:flex">
+      <nav className="desktop-nav">
         <a href="#welcome">
         <img className="portrait" src="../../images/ai-portrait-og.png" />
         </a>
