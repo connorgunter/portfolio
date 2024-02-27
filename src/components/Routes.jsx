@@ -6,10 +6,12 @@ export const routes = [
     },
     {
         title: "Skills",
-        href: "#skills"
+        href: "#skills",
+        Icon: "../../images/engineering.png"
     },
     {
         title: "Projects",
-        href: "#projects"
+        href: "#projects",
+        Icon: "../../images/project-management.png"
     }
 ]

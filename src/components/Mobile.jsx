@@ -49,6 +49,7 @@ const Mobile = () => {
                       href={route.href}
                     >
                       <span className="flex gap-1 text-lg">{route.title}</span>
+                      <img className="w-8 mr-10" src={route.Icon}/>
                       {/* <Icon className="text-xl" /> */}
                     </a>
                   </motion.li>
