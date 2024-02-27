@@ -12,8 +12,10 @@ const Mobile = () => {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div ref={ref} className="sm:hidden flex justify-between">
+    <div ref={ref} className="sm:hidden flex justify-between items-center">
+      <a href="#">
       <img className="w-10 h-10 mt-1 rounded-full" src="../../images/ai-portrait-og.png"/>
+      </a>
       <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       <AnimatePresence>
         {isOpen && (
