@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 body {
   background: rgb(156, 165, 214);
   background: radial-gradient(
