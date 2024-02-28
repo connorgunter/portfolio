@@ -40,39 +40,4 @@ function Welcome() {
   );
 }
 
-// <a
-//           href="https://github.com/connorgunter"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           <button className="github-btn welcome-btns ">
-//             <img
-//               src="../../images/github.png"
-//               className="w-[25px] mr-[5px] github-black"
-//             />
-//             <img
-//               src="../../images/github-white.png"
-//               className="w-[25px] mr-[5px] github-white"
-//             />
-//             GitHub
-//           </button>
-//         </a>
-//         <a
-//           href="https://drive.google.com/file/d/1pombqrcirYJQMgBH3dexe6YZwDQ5BL4C/view?usp=sharing"
-//           target="_blank"
-//           rel="noreferrer"
-//         >
-//           <button className="welcome-btns resume-btn">
-//             <img
-//               src="../../images/resume.png"
-//               className="w-[25px] mr-[5px] resume-black"
-//             />
-//             <img
-//               src="../../images/resume-white.png"
-//               className="w-[25px] mr-[5px] resume-white"
-//             />
-//             Resume
-//           </button>
-//         </a>
-
 export default Welcome;
