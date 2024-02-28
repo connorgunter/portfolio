@@ -23,7 +23,7 @@ function Home() {
       <br />
       <br />
       <br />
-      <h2>Welcome to my Portfolio</h2>
+      <h2 className="anta-regular">Welcome to my Portfolio</h2>
       <img className="home-image" src="../../images/maine.png" />
       <p className="home-p">
         I grew up in a charming town in southern Maine, surrounded by a

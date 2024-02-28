@@ -6,13 +6,13 @@ function Welcome() {
       className="welcome-bg flex flex-col items-center justify-center -ml-2 w-screen h-screen"
     >
       <div className="h-auto mb-5">
-        <h3 className="text-white p-5 text-base md:text-lg lg:text-xl">
+        <h3 className="anta-regular text-white pl-5 text-base md:text-lg lg:text-xl">
           Hello there, Welcome to my site
         </h3>
-        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic p-5 rounded-lg">
+        <h1 className="anta-regular text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic pl-5 rounded-lg">
           I'm Connor Gunter
         </h1>
-        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic p-5 rounded-lg">
+        <h1 className="anta-regular text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic pl-5 rounded-lg">
           Full Stack Developer
         </h1>
       </div>

@@ -27,4 +27,11 @@
   .welcome-btns {
     @apply border inline-flex items-center justify-center m-2.5 p-2.5 rounded-[10px] border-solid border-[black];
   }
+
+  .anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 }

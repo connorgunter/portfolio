@@ -51,7 +51,7 @@ function Skills() {
       <br />
       <br />
       <div className="skills-header-container">
-        <h1 className="skills-header">Skills</h1>
+        <h1 className="skills-header anta-regular">Skills</h1>
         <img className="skills-img" src="../../images/skills.png" />
       </div>
       <div className="skills">

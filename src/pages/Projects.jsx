@@ -23,13 +23,13 @@ function Projects() {
         <br />
         <br />
         <div className="projects-header-container">
-          <h1 className="project-header">My Projects</h1>
+          <h1 className="project-header anta-regular">My Projects</h1>
           <img className="projects-img" src="../../images/programming.png" />
         </div>
         <div className="projects-container">
           {projects.map((project, idx) => (
             <div className="project-card" key={idx}>
-              <h1 className="text-white">{project.name}</h1>
+              <h1 className="text-white anta-regular">{project.name}</h1>
               <img className="project-image" src={project.image} />
               <div className="buttons">
                 <a href={project.git}>

@@ -2,7 +2,7 @@ import "../css/Footer.css";
 function Footer() {
   return (
     <div className="text-center">
-      <p className="text-black mb-2.5 text-xl">Contact Me</p>
+      <p className="text-black mb-2.5 text-xl anta-regular">Contact Me</p>
       <div className="flex justify-center mt-2.5">
         <a
           className="ml-2.5"
