@@ -16,22 +16,14 @@ function Welcome() {
           Full Stack Developer
         </h1>
       </div>
-      <div>
+      <div className="pb-10">
         <a
           href="https://github.com/connorgunter"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="github-btn welcome-btns ">
-            <img
-              src="../../images/github.png"
-              className="w-[25px] mr-[5px] github-black"
-            />
-            <img
-              src="../../images/github-white.png"
-              className="w-[25px] mr-[5px] github-white"
-            />
-            GitHub
+          <button className="m-5 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
+            Github &gt;
           </button>
         </a>
         <a
@@ -39,21 +31,48 @@ function Welcome() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="welcome-btns resume-btn">
-            <img
-              src="../../images/resume.png"
-              className="w-[25px] mr-[5px] resume-black"
-            />
-            <img
-              src="../../images/resume-white.png"
-              className="w-[25px] mr-[5px] resume-white"
-            />
-            Resume
+          <button className="m-5 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
+            Resume &gt;
           </button>
         </a>
       </div>
     </div>
   );
 }
+
+// <a
+//           href="https://github.com/connorgunter"
+//           target="_blank"
+//           rel="noreferrer"
+//         >
+//           <button className="github-btn welcome-btns ">
+//             <img
+//               src="../../images/github.png"
+//               className="w-[25px] mr-[5px] github-black"
+//             />
+//             <img
+//               src="../../images/github-white.png"
+//               className="w-[25px] mr-[5px] github-white"
+//             />
+//             GitHub
+//           </button>
+//         </a>
+//         <a
+//           href="https://drive.google.com/file/d/1pombqrcirYJQMgBH3dexe6YZwDQ5BL4C/view?usp=sharing"
+//           target="_blank"
+//           rel="noreferrer"
+//         >
+//           <button className="welcome-btns resume-btn">
+//             <img
+//               src="../../images/resume.png"
+//               className="w-[25px] mr-[5px] resume-black"
+//             />
+//             <img
+//               src="../../images/resume-white.png"
+//               className="w-[25px] mr-[5px] resume-white"
+//             />
+//             Resume
+//           </button>
+//         </a>
 
 export default Welcome;
