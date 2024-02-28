@@ -13,7 +13,7 @@ Welcome to the repository for my personal FullStack Developer Portfolio! This po
 
 ## Technologies Used
 
-- **Frontend:** React.js, HTML, CSS
+- **Frontend:** React.js, HTML, CSS, TailWind CSS
 - **Version Control:** Git and GitHub
 - **Deployment:** Netlify
 

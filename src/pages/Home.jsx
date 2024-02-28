@@ -37,7 +37,7 @@ function Home() {
         demonstrating a commitment to innovation and pushing the boundaries of
         what is possible.
       </p>
-      <div className="a-c">
+      {/* <div className="a-c">
       <div className="about-container">
       <button className="accordion">My Journey</button>
       <div className="panel">
@@ -52,7 +52,7 @@ function Home() {
         <p>Panel 3</p>
       </div>
       </div>
-    </div>
+    </div> */}
     </div>
   );
 }
