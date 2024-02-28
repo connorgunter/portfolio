@@ -7,11 +7,11 @@ export const routes = [
     {
         title: "Skills",
         href: "#skills",
-        Icon: "../../images/engineering.png"
+        Icon: "../../images/skills.png"
     },
     {
         title: "Projects",
         href: "#projects",
-        Icon: "../../images/project-management.png"
+        Icon: "../../images/programming.png"
     }
 ]

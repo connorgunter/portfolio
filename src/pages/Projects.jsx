@@ -29,7 +29,7 @@ function Projects() {
         <div className="projects-container">
           {projects.map((project, idx) => (
             <div className="project-card" key={idx}>
-              <h1>{project.name}</h1>
+              <h1 className="text-white">{project.name}</h1>
               <img className="project-image" src={project.image} />
               <div className="buttons">
                 <a href={project.git}>

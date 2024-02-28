@@ -1,38 +1,4 @@
-.welcome-container {
-  min-height: 820px;
-  background-image: url("../../images/welcome.png");
-}
 
-.welcome-header {
-  text-align: center;
-  border-radius: 10px;
-  padding: 5px;
-  font-size: 50px;
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.header-container {
-  margin-bottom: 20px;
-  height: auto;
-}
-
-.welcome-btns {
-  border: 1px solid black;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.button-imgs {
-  width: 25px;
-  margin-right: 5px;
-}
 
 .github-btn, .resume-btn {
   background: #EEE;

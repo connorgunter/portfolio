@@ -7,23 +7,25 @@
   right: 0;
   left: 0;
   position: fixed;
-  background: rgb(63, 8, 133);
-  background: radial-gradient(
+  background-color: #b7673c;
+  /* background: rgb(63, 8, 133); */
+  /* background: radial-gradient(
     circle,
     rgba(63, 8, 133, 1) 11%,
     rgba(22, 5, 42, 1) 91%
-  );
+  ); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 5;
   height: 8vh;
 }
 nav {
-  background: rgb(63, 8, 133);
+  background-color: #b7673c;
+  /* background: rgb(63, 8, 133);
   background: radial-gradient(
     circle,
     rgba(63, 8, 133, 1) 11%,
     rgba(22, 5, 42, 1) 91%
-  );
+  ); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 5;
   /* height: 8vh; */

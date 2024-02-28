@@ -25,7 +25,7 @@ function Footer() {
         </a>
       </div>
       <br />
-      <div className="radial-gradient text-white p-4">
+      <div className="bg-[#b7673c] text-white p-4">
         <p>All Rights Reserved by Connor Gunter ©</p>
       </div>
     </div>
