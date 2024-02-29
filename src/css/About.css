@@ -1,29 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
-
-#about {
-  text-align: center;
-  padding: 20px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.home-p {
-  color: #333;
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 20px auto;
-  max-width: 600px;
-}
-
-.home-image {
-  border: 3px solid black;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  width: 250px;
-  height: auto;
-}
-
-.a-c {
+/* .a-c {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,4 +50,4 @@
 }
 .panel p {
   padding: 10px;
-}
+} */
