@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Welcome from "./pages/Welcome"
-import Home from "./pages/Home";
+import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <main>
       <Welcome />
-      <Home />
+      <About />
       <Skills />
       <Projects />
       </main>

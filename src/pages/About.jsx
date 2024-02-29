@@ -1,4 +1,4 @@
-import "../css/Home.css";
+import "../css/About.css";
 import { useEffect } from "react";
 function Home() {
 
@@ -19,13 +19,13 @@ function Home() {
         }
       }, [])
   return (
-    <div id="about">
+    <div id="about" className="text-center p-5">
       <br />
       <br />
       <br />
       <h2 className="anta-regular">About</h2>
-      <img className="home-image" src="../../images/maine.png" />
-      <p className="home-p">
+      <div className="flex items-center justify-evenly">
+      <p className="text-[#333] text-lg leading-[1.6] max-w-[600px] my-5">
         I grew up in a charming town in southern Maine, surrounded by a
         community deeply rooted in various trade professions. However, I
         recognized early on that my ambitions reached beyond the traditional
@@ -37,6 +37,8 @@ function Home() {
         demonstrating a commitment to innovation and pushing the boundaries of
         what is possible.
       </p>
+      <img className="shadow-[0_4px_8px_rgba(0,0,0,0.1)] w-[250px] h-auto mt-5 rounded-[50%] border-[3px] border-solid border-[black]" src="../../images/maine.png" />
+      </div>
       {/* <div className="a-c">
       <div className="about-container">
       <button className="accordion">My Journey</button>
