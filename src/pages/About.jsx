@@ -23,7 +23,11 @@ function Home() {
       <br />
       <br />
       <h2 className="anta-regular">About</h2>
-      <div className="flex items-center justify-evenly">
+      <div className="flex flex-col md:flex-row items-center justify-evenly">
+        <img
+          className="shadow-[0_4px_8px_rgba(0,0,0,0.1)] w-[250px] h-auto mt-5 md:mt-0 rounded-[50%] border-[3px] border-solid border-[black] mb-5 md:mb-0"
+          src="../../images/maine.png"
+        />
         <p className="text-[#333] text-lg leading-[1.6] max-w-[600px] my-5">
           I grew up in a charming town in southern Maine, surrounded by a
           community deeply rooted in various trade professions. However, I
@@ -36,10 +40,6 @@ function Home() {
           technology, demonstrating a commitment to innovation and pushing the
           boundaries of what is possible.
         </p>
-        <img
-          className="shadow-[0_4px_8px_rgba(0,0,0,0.1)] w-[250px] h-auto mt-5 rounded-[50%] border-[3px] border-solid border-[black]"
-          src="../../images/maine.png"
-        />
       </div>
       {/* <div className="a-c">
         <div className="about-container">
@@ -68,8 +68,8 @@ function Home() {
           <div className="panel">
             <p>Panel 3</p>
           </div> */}
-        {/* </div> */}
-      {/* {</div> */} 
+      {/* </div> */}
+      {/* {</div> */}
     </div>
   );
 }

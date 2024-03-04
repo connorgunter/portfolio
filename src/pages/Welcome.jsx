@@ -3,7 +3,7 @@ function Welcome() {
   return (
     <div
       id="welcome"
-      className="welcome-bg flex flex-col items-center justify-center -ml-2 w-screen h-screen"
+      className="welcome-bg flex flex-col items-center justify-center w-screen h-screen"
     >
       <div className="h-auto mb-5">
         <h3 className="anta-regular text-white pl-5 text-base md:text-lg lg:text-xl">
