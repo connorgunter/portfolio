@@ -22,7 +22,10 @@ function Home() {
       <br />
       <br />
       <br />
-      <h2 className="anta-regular">About</h2>
+      <div className="flex justify-center items-center">
+      <h2 className="anta-regular text-[30px] mr-[10px]">About</h2>
+      <img className="w-[40px]" src="../../images/info.png"/>
+      </div>
       <div className="flex flex-col md:flex-row items-center justify-evenly">
         <img
           className="shadow-[0_4px_8px_rgba(0,0,0,0.1)] w-[250px] h-auto mt-5 md:mt-0 rounded-[50%] border-[3px] border-solid border-[black] mb-5 md:mb-0"

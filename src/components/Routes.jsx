@@ -2,7 +2,7 @@ export const routes = [
     {
         title: "About",
         href: "#about",
-        Icon: "../../images/information.png"
+        Icon: "../../images/info.png"
     },
     {
         title: "Skills",
@@ -12,6 +12,6 @@ export const routes = [
     {
         title: "Projects",
         href: "#projects",
-        Icon: "../../images/programming.png"
+        Icon: "../../images/rocket-lunch.png"
     }
 ]

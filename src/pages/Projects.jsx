@@ -24,7 +24,7 @@ function Projects() {
         <br />
         <div className="projects-header-container">
           <h1 className="project-header anta-regular">My Projects</h1>
-          <img className="projects-img" src="../../images/programming.png" />
+          <img className="projects-img" src="../../images/rocket-lunch.png" />
         </div>
         <div className="projects-container">
           {projects.map((project, idx) => (
