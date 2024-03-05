@@ -1,5 +1,10 @@
 export const routes = [
     {
+        title: "Home",
+        href: "#welcome",
+        Icon: "../../images/home.png"
+    },
+    {
         title: "About",
         href: "#about",
         Icon: "../../images/info.png"
@@ -13,5 +18,5 @@ export const routes = [
         title: "Projects",
         href: "#projects",
         Icon: "../../images/rocket-lunch.png"
-    }
+    },
 ]
