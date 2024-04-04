@@ -24,6 +24,7 @@ function Footer() {
           <img className="gmail-logo" src="../../images/gmail.png" />
         </a>
       </div>
+        <p className="mb-2.5 anta-regular">connorgunter02@gmail.com</p>
       <br />
       <div className="bg-[#b7673c] text-white p-4">
         <p>All Rights Reserved by Connor Gunter ©</p>

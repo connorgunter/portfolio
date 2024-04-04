@@ -31,12 +31,11 @@ function Home() {
           className="shadow-[0_4px_8px_rgba(0,0,0,0.1)] w-[250px] h-auto mt-5 md:mt-0 rounded-[50%] border-[3px] border-solid border-[black] mb-5 md:mb-0"
           src="../../images/maine.png"
         />
-        <p className="text-[#333] text-lg leading-[1.6] max-w-[600px] my-5">
+        <p className="text-[#333] text-lg leading-[1.6] max-w-[600px] my-5 text-left">
           I grew up in a charming town in southern Maine, surrounded by a
           community deeply rooted in various trade professions. However, I
           recognized early on that my ambitions reached beyond the traditional
-          trades. My passion lies in the ever-expanding tech industry, and I
-          have set my sights on Full Stack Development. This field captivates me
+          trades. I am a fullstack developer with experience using technologies such as, React, JavaScript, CSS, Node, Django and more. This field captivates me
           with its constant evolution and the opportunity it offers for creative
           expression. As I navigate my professional journey, I am excited to
           contribute my skills and enthusiasm to the dynamic world of
