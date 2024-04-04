@@ -23,7 +23,7 @@ function Projects() {
         <br />
         <br />
         <div className="projects-header-container">
-          <h1 className="project-header anta-regular">My Projects</h1>
+          <h1 className="project-header anta-regular">Projects</h1>
           <img className="projects-img" src="../../images/rocket-lunch.png" />
         </div>
         <div className="projects-container">
