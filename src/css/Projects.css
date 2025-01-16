@@ -29,12 +29,6 @@ img {
   padding: 10px;
   text-align: center;
   background-color: #1d2625;
-  /* background: rgb(63, 8, 133);
-  background: radial-gradient(
-    circle,
-    rgba(63, 8, 133, 1) 11%,
-    rgba(22, 5, 42, 1) 91%
-  ); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

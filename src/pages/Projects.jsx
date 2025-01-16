@@ -37,6 +37,8 @@ function Projects() {
                     Github
                   </button>
                 </a>
+                <a href={project.info}>
+                  <button className="anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-2 text-sm uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">More Info</button></a>
                 <a href={project.live}>
                   <button className="anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-2 text-sm uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
                     Link!

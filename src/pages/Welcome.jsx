@@ -10,7 +10,7 @@ function Welcome() {
           Hello there, Welcome to my site
         </h3>
         <h1 className="anta-regular text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic pl-5 rounded-lg">
-          I'm Connor Gunter
+          Connor Gunter
         </h1>
         <h1 className="anta-regular text-white text-3xl md:text-4xl lg:text-5xl font-normal not-italic pl-5 rounded-lg">
           Full Stack Developer

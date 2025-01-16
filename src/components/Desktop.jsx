@@ -9,7 +9,7 @@ function Desktop() {
         </a>
         <div className="links">
           <a href="#about">
-            <div className="link">ABOUT</div>
+            <div className="link">ABOU</div>
           </a>
           <a href="#skills">
             <div className="link">SKILLS</div>
