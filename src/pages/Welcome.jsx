@@ -27,7 +27,7 @@ function Welcome() {
           </button>
         </a>
         <a
-          href="https://docs.google.com/document/d/1YW7jmURwSz8tdvq44i0FRrqDh27E7flUBnHFWm_MPz0/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1qpXN1VkGcw36cyfMNcXxAYU4ySbDw_0SRyBPapW0GHg/edit?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
