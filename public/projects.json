@@ -1,5 +1,12 @@
 [
   {
+    "name": "NEF Landscape & Design LLC",
+    "live": "https://neflandscaping.com/",
+    "git": "https://github.com/connorgunter/NEF_Landscaping",
+    "image": "./images/nef.png",
+    "info": "../src/pages/projectinfo.jsx"
+  },
+  {
     "name": "JourneyCraft",
     "live": "https://journeycraft.netlify.app/",
     "git": "https://github.com/bsong1124/trip-planner-client",
@@ -11,13 +18,6 @@
     "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
     "git": "https://github.com/connorgunter/music-playlist-app",
     "image": "./images/beatbuddy.png",
-    "info": "../src/pages/projectinfo.jsx"
-  },
-  {
-    "name": "ForecastFountain",
-    "live": "https://forecastfountain.netlify.app/",
-    "git": "https://github.com/connorgunter/Weather-App-Client",
-    "image": "./images/forecastfountain.png",
     "info": "../src/pages/projectinfo.jsx"
   },
   {

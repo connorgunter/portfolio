@@ -33,7 +33,7 @@ function Skills() {
 
   const renderSkills = (skillCategory) => (
     <div key={skillCategory} className="skill-category">
-      <h2>{skillCategory}</h2>
+      <h2 className="skill-category-header">{skillCategory}</h2>
       <div className="skills-grid">
         {skills[skillCategory].map((skill, idx) => (
           <div key={idx} className="skills-logos">
@@ -47,9 +47,6 @@ function Skills() {
 
   return (
     <div id="skills">
-      <br />
-      <br />
-      <br />
       <div className="skills-header-container">
         <h1 className="skills-header anta-regular">Skills</h1>
         <img className="skills-img" src="../../images/skills.png" />

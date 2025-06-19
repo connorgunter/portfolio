@@ -5,11 +5,14 @@ function Desktop() {
     <header className="hidden sm:flex">
       <nav className="desktop-nav">
         <a href="#welcome">
-        <img className="portrait" src="../../images/ai-portrait-og.png" />
+          <img className="portrait" src="../../images/ai-portrait-og.png" />
         </a>
         <div className="links">
           <a href="#about">
             <div className="link">ABOUT</div>
+          </a>
+          <a href="#services">
+            <div className="link">SERVICES</div>
           </a>
           <a href="#skills">
             <div className="link">SKILLS</div>

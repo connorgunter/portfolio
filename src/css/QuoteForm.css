@@ -1,0 +1,85 @@
+.quote-section {
+    padding: 0 2rem 2rem;
+    background-color: transparent;
+  }
+  
+  .quote-heading {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .quote-form {
+    background-color: #1d2625;
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: end;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #eee;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #111;
+  }
+  
+  .button-container {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button-container button {
+    background-color: #1d2625;
+    color: #fff;
+    border: 2px solid #b7673c;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #b7673c;
+    color: #000;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .button-container {
+      justify-content: center;
+    }
+  }
+  

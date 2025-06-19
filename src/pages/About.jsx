@@ -6,8 +6,8 @@ function Home() {
       <br />
       <br />
       <div className="flex justify-center items-center">
-      <h2 className="anta-regular text-[30px] mr-[10px]">About</h2>
-      <img className="w-[40px]" src="../../images/info.png"/>
+        <h2 className="anta-regular text-[2.5rem] mr-[10px]">About</h2>
+        <img className="w-[40px]" src="../../images/info.png" />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-evenly">
         <img
@@ -18,12 +18,13 @@ function Home() {
           I grew up in a charming town in southern Maine, surrounded by a
           community deeply rooted in various trade professions. However, I
           recognized early on that my ambitions reached beyond the traditional
-          trades. I am a fullstack developer with experience using technologies such as, React, JavaScript, CSS, Node, Django and more. This field captivates me
-          with its constant evolution and the opportunity it offers for creative
-          expression. As I navigate my professional journey, I am excited to
-          contribute my skills and enthusiasm to the dynamic world of
-          technology, demonstrating a commitment to innovation and pushing the
-          boundaries of what is possible.
+          trades. I am a fullstack developer with experience using technologies
+          such as, React, JavaScript, CSS, Node, Django and more. This field
+          captivates me with its constant evolution and the opportunity it
+          offers for creative expression. As I navigate my professional journey,
+          I am excited to contribute my skills and enthusiasm to the dynamic
+          world of technology, demonstrating a commitment to innovation and
+          pushing the boundaries of what is possible.
         </p>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import "../css/Welcome.css";
+
 function Welcome() {
   return (
     <div
@@ -16,23 +17,31 @@ function Welcome() {
           Full Stack Developer
         </h1>
       </div>
-      <div className="pb-10">
+
+      <div className="pb-10 flex flex-wrap justify-center">
         <a
           href="https://github.com/connorgunter"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="m-5 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
+          <button className="m-3 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
             Github &gt;
           </button>
         </a>
+
         <a
           href="https://docs.google.com/document/d/1qpXN1VkGcw36cyfMNcXxAYU4ySbDw_0SRyBPapW0GHg/edit?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="m-5 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
+          <button className="m-3 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
             Resume &gt;
+          </button>
+        </a>
+
+        <a href="#services">
+          <button className="m-3 anta-regular bg-[#1d2625] border-solid border-4 border-[#b7673c] text-white px-6 py-4 text-l uppercase tracking-widest hover:bg-[#b7673c] hover:text-black">
+            Services &gt;
           </button>
         </a>
       </div>
