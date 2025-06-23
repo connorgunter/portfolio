@@ -1,8 +1,15 @@
+import "../css/SuccessMessage.css";
 const SuccessMessage = () => (
-  <div className="success-message">
-    <h1>Thank you!</h1>
-    <p>Your quote request has been received. We'll get back to you shortly.</p>
-  </div>
+  <section className="success-section">
+    <div className="success-card">
+      <h1 className="success-title">🎉 Thank You!</h1>
+      <p className="success-message">
+        We've received your request and will get back to you shortly.
+      </p>
+      <a href="/" className="success-btn">
+        Return Home
+      </a>
+    </div>
+  </section>
 );
-
 export default SuccessMessage;
