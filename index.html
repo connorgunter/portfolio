@@ -12,12 +12,26 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/png+xml" href="./images/ai-portrait.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Connor Gunter</title>
   </head>
   <body class="m-0 bg-orange-100">
+    <form name="quote" netlify hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="business" />
+      <select name="package">
+        <option>Starter</option>
+        <option>Pro</option>
+        <option>Premium</option>
+      </select>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
